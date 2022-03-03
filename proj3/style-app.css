@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font: 15px/1.5 Times New Roman, Helvetica, sans-serif;
+}
+
+/* Global */
+.container {
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #E8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+/*Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #E8491d;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #E8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Container */
+#container {
+    margin-top: 20px;
+}
+
+#app {
+    float: left;
+}
+
+.app1 {
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-right: 480px;
+    margin-bottom: 5px;
+}
+
+.app2 {
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin-left: 130px;
+    margin-right: 480px;
+    margin-bottom: 5px;
+}
+
+.app3 {
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin-left: 130px;
+    margin-right: 480px;
+    margin-bottom: 0;
+}
+
+#contact {
+    background-color: #35424a;
+    color: #ffffff;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    position: absolute;
+    top: 105px;
+    left: 900px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 540px;
+    color: #ffffff;
+    background-color: #E8491d;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    .app1, .app2, .app3 {
+        background-color: #E6E6E6;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+    #contact {
+        background-color: #35424a;
+        color: #ffffff;
+        padding-left: 20px;
+        padding-right: 30px;
+        position: absolute;
+        top: 770px;
+        left: 75px;
+        text-align: center;
+    }
+      
+    .button_1 {
+        display: block;
+        width: 100%;
+    }
+    
+    footer {
+        margin-top: 950px;
+    }
+}
